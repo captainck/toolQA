@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="demoqa.com.ActionClass">
+        <methods>
+          <include name="ClosingBrowser"/>
+          <include name="BrowserLunching"/>
+          <include name="slider"/>
+        </methods>
+      </class> <!-- demoqa.com.ActionClass -->
+      <class name="demoqa.com.DropAndDrag">
+        <methods>
+          <include name="droppable"/>
+          <include name="LunchingBrowser"/>
+          <include name="ClosingBrowser"/>
+        </methods>
+      </class> <!-- demoqa.com.DropAndDrag -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
