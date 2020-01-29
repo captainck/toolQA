@@ -4,11 +4,9 @@
   <test thread-count="2" name="Test">
     <classes>
         
-   		<class name="demoqa.com.WindowRelated">
-      <methods>
-      <include name ="newWindowHandle"></include>
-      </methods>
-      </class>
+   		<class name="demoqa.com.WindowRelated"/>
+      
+      
       
     </classes>
   </test> <!-- Test -->
